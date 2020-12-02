@@ -1,0 +1,215 @@
+html, body, #root{
+    width: 100% !important;
+    min-width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    background-image: url('../images/back3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.App{
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#main{
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.button{
+    width: 150px !important;
+    border: 1px dotted #00AFED !important;
+    background-color: transparent !important;
+    margin: 30px;
+    color: white;
+    padding: 15px 30px;
+}
+.button:hover{
+    background-color:  #00AFED !important;
+}
+.button:active {
+    outline: none;
+    border: none;
+}
+    
+.button:focus {outline:0;}
+
+.info{
+    background-color: #004fb4;
+    padding: 50px;
+    border: 1px dotted white;
+}
+
+p{
+    color: #fff;
+    text-align: left;
+}
+
+.error{
+    color: red;
+    padding: 30px 50px 0;
+}
+
+h1{
+    color: #fff;
+}
+
+
+.individual{
+    width: 100%;
+    min-height: 100%;
+    padding: 50px;
+    background-color: rgba(0,0,0,.6);
+}
+
+
+form {
+    padding: 30px 50px;
+}
+
+span{
+    color: red;
+}
+
+form p{
+    color: #000;
+    font-weight: bold;
+}
+
+.form-group{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.formCont{
+    width: 70%;
+    background-color: #fff;
+    padding: 0;
+}
+
+.formCont header{
+    background-color: #004fb4;
+    padding: 20px;
+    color: #fff;
+}
+
+header h3{
+    color: #fff !important;
+}
+
+.formCont #note{
+    color: #000;
+    padding: 30px 50px 0;
+}
+
+form .button{
+    align-self: flex-start;
+    background-color: #00AFED !important;
+}
+
+#loader, #error{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    flex-direction: column;
+}
+
+#error h3{
+    text-align: center;
+}
+
+#success{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#other-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#other-link a{
+    text-decoration: none;
+    color: #00AFED;
+    margin: 10px 20px;
+}
+
+#lottie{
+    width: 300px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #main {
+        width: 100%;
+        padding: 30px 0;
+    }
+    .info h1{
+        font-size: 20px;
+        align-self: start;
+        padding-bottom: 30px;
+    }
+    .info {
+        width: 100%;
+        background-color: transparent;
+        padding: 0 20px;
+        border: 0 !important;
+    }
+    .btnCont{
+        margin: 50px 0;
+    }
+
+    .individual{
+        width: 100%;
+        padding: 0;
+    }
+    .formCont{
+        width: 100%;
+    }
+
+    .formCont header{
+        padding: 10px;
+    }
+
+    .formCont header h3{
+        font-size: 20px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    #success{
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #lottie{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+

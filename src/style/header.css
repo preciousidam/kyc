@@ -1,0 +1,26 @@
+
+.navbar{
+    background-color: rgba(0,0,0,.6);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3) !important;
+}
+
+.navHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.brand{
+    display: inline;
+
+}
+.navbar-brand img{
+    width: 100px;
+    height: 40px;
+    display: inline;
+}
+
+.is-active{
+    font-weight: bold !important;
+    color:  #00AFED !important;
+}
